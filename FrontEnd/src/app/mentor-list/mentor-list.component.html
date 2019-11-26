@@ -1,0 +1,24 @@
+<app-admin-dashboard></app-admin-dashboard>
+<div class="container pt-3">
+    <h1 style="text-align: center">Mentors List</h1><hr>
+    <table class="table table-hover " style="background-color: white">
+        <thead class="thead-dark">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Mentor's Email</th>
+            <th>Status</th>
+        </thead>
+        <tbody>   
+        <tr *ngFor=" let mentors of mentorsList">
+
+            <td>{{mentors.fName}}</td>
+            <td>{{mentors.lName}}</td>
+            <td>{{mentors.email}}</td>
+            <td><button *ngIf="mentors.active" class="btn btn-danger btn-xs" (click)="Block(mentors.id)"><i class="fa fa-ban"></i>Block</button>
+                <button *ngIf="!mentors.active" class="btn btn-primary btn-xs" (click)="Unblock(mentors.id)"><i class="fa fa-ban"></i>UnBlock</button>
+            </td>
+            
+        </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,49 @@
+<app-mentor-dashboard></app-mentor-dashboard>
+<!-- 
+<div class="container pt-5">
+    <div class="card rounded-0">
+      <div class="card-body">
+        <div style="text-align: center">
+          <img class="card-img-top" src="../assets/image/pic1.png" alt="Card image cap" style="width: 12rem">
+          <h3>MY PROFILE</h3>
+            </div><hr>
+                    <form class="form">
+                    <div class="form-group">
+                        {{mentorprofile.fName}} {{mentorprofile.lName}}
+                    </div> 
+                    <div class="form-group">
+                        {{mentorprofile.email}}
+                    </div>  
+                  </form> 
+            </div>
+    </div>
+</div> -->
+<div class="container pt-5">
+    <div class="card rounded-0">
+      <div class="card-body">
+        <div style="text-align: center">
+          <img class="card-img-top" src="../assets/image/pic1.png" alt="Card image cap" style="width: 12rem">
+          <h3>MY PROFILE</h3>
+        </div><hr>
+        <form class="form">
+            <div class="form-group">
+               <strong> Name : {{mentorprofile.fName}} {{mentorprofile.lName}}</strong>
+            </div> 
+            <div class="form-group">
+              <strong> Email Id: {{mentorprofile.email}}</strong>
+            </div>  
+            <!-- <div class="form-group">
+            <input type="text" name="Fname" class="form-control" class="form-control" placeholder=" Name" [(ngModel)]="registerUserData.Fname" required>
+             <small class="text-danger" [class.d-none]="uname.valid || uname.untouched">First Name is
+              required!</small>
+            </div> -->
+              <!-- <div class="form-group">
+                 <input type="text" name="Lname" class="form-control"  #ulame="ngModel" [class.is-invalid]="ulame.invalid && ulame.touched" placeholder="Last Name" [(ngModel)]="registerUserData.Lname">
+                 <small class="text-danger" [class.d-none]="ulame.valid || ulame.untouched">Last Name is
+                  required!</small>
+                  
+                </div> --> 
+          </form> 
+          </div>
+          </div>
+          </div>

@@ -1,0 +1,8 @@
+D:\MentorHub\MOD.ModelLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.deps.json
+D:\MentorHub\MOD.ModelLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.ModelLibrary\obj\Debug\netcoreapp3.0\MOD.ModelLibrary.AssemblyInfoInputs.cache
+D:\MentorHub\MOD.ModelLibrary\obj\Debug\netcoreapp3.0\MOD.ModelLibrary.AssemblyInfo.cs
+D:\MentorHub\MOD.ModelLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb
+D:\MentorHub\MOD.ModelLibrary\obj\Debug\netcoreapp3.0\MOD.ModelLibrary.csprojAssemblyReference.cache
+D:\MentorHub\MOD.ModelLibrary\obj\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.ModelLibrary\obj\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb

@@ -1,0 +1,106 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/account/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9069
+        }
+      ],
+      "UpstreamPathTemplate": "/authservice/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/admin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9070
+        }
+      ],
+      "UpstreamPathTemplate": "/adminservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/admin/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9070
+        }
+      ],
+      "UpstreamPathTemplate": "/adminservice/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/mentor",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9071
+        }
+      ],
+      "UpstreamPathTemplate": "/mentorservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/mentor/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9071
+        }
+      ],
+      "UpstreamPathTemplate": "/mentorservice/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/student",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9072
+        }
+      ],
+      "UpstreamPathTemplate": "/studentservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/student/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9072
+        }
+      ],
+      "UpstreamPathTemplate": "/studentservice/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/user",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9073
+        }
+      ],
+      "UpstreamPathTemplate": "/userservice"
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9073
+        }
+      ],
+      "UpstreamPathTemplate": "/userservice/{catchAll}"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:9095"
+  }
+}

@@ -1,0 +1,11 @@
+D:\MentorHub\MOD.UserLibrary\bin\Debug\netcoreapp3.0\MOD.UserLibrary.deps.json
+D:\MentorHub\MOD.UserLibrary\bin\Debug\netcoreapp3.0\MOD.UserLibrary.dll
+D:\MentorHub\MOD.UserLibrary\bin\Debug\netcoreapp3.0\MOD.UserLibrary.pdb
+D:\MentorHub\MOD.UserLibrary\obj\Debug\netcoreapp3.0\MOD.UserLibrary.csprojAssemblyReference.cache
+D:\MentorHub\MOD.UserLibrary\obj\Debug\netcoreapp3.0\MOD.UserLibrary.AssemblyInfoInputs.cache
+D:\MentorHub\MOD.UserLibrary\obj\Debug\netcoreapp3.0\MOD.UserLibrary.AssemblyInfo.cs
+D:\MentorHub\MOD.UserLibrary\obj\Debug\netcoreapp3.0\MOD.UserLibrary.dll
+D:\MentorHub\MOD.UserLibrary\obj\Debug\netcoreapp3.0\MOD.UserLibrary.pdb
+D:\MentorHub\MOD.UserLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.UserLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb
+D:\MentorHub\MOD.UserLibrary\obj\Debug\netcoreapp3.0\MOD.UserLibrary.csproj.CopyComplete

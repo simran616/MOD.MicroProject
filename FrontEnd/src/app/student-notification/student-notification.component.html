@@ -1,0 +1,14 @@
+<div class="container pt-5">
+    <h2 style="text-align: center;">Notifications</h2><hr>
+    <table>
+        <tbody>
+            <tr *ngFor=" let notifications of studentnotification">
+                <td><p><b>{{notifications.mentorFname}} {{notifications.mentorLname}} has {{notifications.courseStatus == '2'? 'Accepted' : 'Declined'}} your request for the course -
+                     {{notifications.cName}}</b></p></td>&nbsp;&nbsp;
+                <td><a routerLink="/payment-page/{{notifications.id}}"><button class="btn btn-info"  *ngIf="notifications.courseStatus == '2'" >Proceed For The Payment</button></a></td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>
+

@@ -1,0 +1,13 @@
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.deps.json
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.dll
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.pdb
+D:\MentorHub\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.csprojAssemblyReference.cache
+D:\MentorHub\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.AssemblyInfoInputs.cache
+D:\MentorHub\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.AssemblyInfo.cs
+D:\MentorHub\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.dll
+D:\MentorHub\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.pdb
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.dll
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.pdb
+D:\MentorHub\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb
+D:\MentorHub\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.csproj.CopyComplete

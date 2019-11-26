@@ -1,0 +1,11 @@
+D:\MentorHub\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.deps.json
+D:\MentorHub\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.dll
+D:\MentorHub\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.csprojAssemblyReference.cache
+D:\MentorHub\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.AssemblyInfoInputs.cache
+D:\MentorHub\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.AssemblyInfo.cs
+D:\MentorHub\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.pdb
+D:\MentorHub\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb
+D:\MentorHub\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.csproj.CopyComplete
+D:\MentorHub\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.dll
+D:\MentorHub\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.pdb

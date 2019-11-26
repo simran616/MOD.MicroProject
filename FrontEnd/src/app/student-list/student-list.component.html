@@ -1,0 +1,24 @@
+<app-admin-dashboard></app-admin-dashboard>
+<div class="container pt-3">
+    <h1 style="text-align: center">Students List</h1><hr>
+    <table class="table table-hover " style="background-color: white">
+        <thead class="thead-dark">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Student's Email</th>
+            <th>Status</th>
+        </thead>
+        <tbody>   
+        <tr *ngFor=" let students of studentsList">
+
+            <td>{{students.fName}}</td>
+            <td>{{students.lName}}</td>
+            <td>{{students.email}}</td>
+            <td><button *ngIf="students.active" class="btn btn-danger btn-xs" (click)="Block(students.id)"><i class="fa fa-ban"></i>Block</button>
+                <button *ngIf="!students.active" class="btn btn-primary btn-xs" (click)="Unblock(students.id)"><i class="fa fa-ban"></i>UnBlock</button>
+            </td>
+            
+        </tr>
+        </tbody>
+    </table>
+</div>

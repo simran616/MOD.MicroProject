@@ -1,0 +1,11 @@
+D:\MentorHub\MOD.DtoLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.deps.json
+D:\MentorHub\MOD.DtoLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.dll
+D:\MentorHub\MOD.DtoLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.pdb
+D:\MentorHub\MOD.DtoLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.DtoLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb
+D:\MentorHub\MOD.DtoLibrary\obj\Debug\netcoreapp3.0\MOD.DtoLibrary.csprojAssemblyReference.cache
+D:\MentorHub\MOD.DtoLibrary\obj\Debug\netcoreapp3.0\MOD.DtoLibrary.AssemblyInfoInputs.cache
+D:\MentorHub\MOD.DtoLibrary\obj\Debug\netcoreapp3.0\MOD.DtoLibrary.AssemblyInfo.cs
+D:\MentorHub\MOD.DtoLibrary\obj\Debug\netcoreapp3.0\MOD.DtoLibrary.csproj.CopyComplete
+D:\MentorHub\MOD.DtoLibrary\obj\Debug\netcoreapp3.0\MOD.DtoLibrary.dll
+D:\MentorHub\MOD.DtoLibrary\obj\Debug\netcoreapp3.0\MOD.DtoLibrary.pdb

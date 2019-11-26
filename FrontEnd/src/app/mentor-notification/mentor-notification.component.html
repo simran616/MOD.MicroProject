@@ -1,0 +1,16 @@
+<div class="container pt-5">
+    <h2 style="text-align: center;">Notifications</h2><hr>
+    <table>
+        <thead>
+            <th></th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr *ngFor=" let notifications of mentornotification">
+                <td><p><b>{{notifications.studentFname}} {{notifications.studentLname}} has requested you for the course - {{notifications.cName}}</b></p></td>&nbsp;&nbsp;
+                <td><button (click)="AcceptRequestedCourse(notifications.id)" class="btn btn-info">Accept</button>&nbsp;&nbsp;&nbsp;&nbsp;<button (click)="DeclineRequestedCourse(notifications.id)" class="btn btn-danger">Decline</button></td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>

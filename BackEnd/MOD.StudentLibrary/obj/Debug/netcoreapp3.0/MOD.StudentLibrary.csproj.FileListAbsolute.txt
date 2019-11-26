@@ -1,0 +1,13 @@
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.StudentLibrary.deps.json
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.StudentLibrary.dll
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.StudentLibrary.pdb
+D:\MentorHub\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.csprojAssemblyReference.cache
+D:\MentorHub\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.AssemblyInfoInputs.cache
+D:\MentorHub\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.AssemblyInfo.cs
+D:\MentorHub\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.dll
+D:\MentorHub\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.pdb
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.dll
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.ModelLibrary.pdb
+D:\MentorHub\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.csproj.CopyComplete
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.dll
+D:\MentorHub\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.DtoLibrary.pdb

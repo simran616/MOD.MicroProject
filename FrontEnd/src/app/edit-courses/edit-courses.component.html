@@ -1,0 +1,24 @@
+<div class="container pt-5" style="margin-left: 25%" >
+    <div class="card" style="width: 55%">
+        <div class="card-body">
+            <div style="text-align: center">
+            <!-- <img class="card-img-top" src="../assets/image/pic1.png" alt="Card image cap" style="width: 12rem"> -->
+            <h3>Update Courses</h3></div><hr><br>
+            
+              <form class="form">
+                <div class="form-group">
+                    <input type="text" name="CName" class="form-control" placeholder="Course Name" [(ngModel)]= "EditCourseData.cName">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="CDuration" class="form-control" placeholder="Course Duration" [(ngModel)]= "EditCourseData.cDuration">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="CFees" class="form-control" placeholder="Course Fees" [(ngModel)]= "EditCourseData.cFees">
+                </div>
+               
+                    <button (click)="EditCourse()"  class="btn btn-success float-right">Update</button>
+                    
+              </form> 
+            </div>
+    </div>
+  </div>

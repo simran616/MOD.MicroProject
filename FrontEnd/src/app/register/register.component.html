@@ -1,0 +1,49 @@
+<div class="container pt-5">
+  <div class="card rounded-0">
+    <div class="card-body">
+      <div style="text-align: center">
+        <img class="card-img-top" src="../assets/image/pic1.png" alt="Card image cap" style="width: 12rem">
+        <h3>Register Here</h3>
+      </div><hr>
+      <form class="form" #registerform = "ngForm">
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <input type="text" name="Fname" class="form-control" class="form-control" #uname="ngModel" [class.is-invalid]="uname.invalid && uname.touched" placeholder="First Name" [(ngModel)]="registerUserData.Fname" required>
+           <small class="text-danger" [class.d-none]="uname.valid || uname.untouched">First Name is
+            required!</small>
+            </div>
+            <div class="col">
+               <input type="text" name="Lname" class="form-control"  #ulame="ngModel" [class.is-invalid]="ulame.invalid && ulame.touched" placeholder="Last Name" [(ngModel)]="registerUserData.Lname">
+               <small class="text-danger" [class.d-none]="ulame.valid || ulame.untouched">Last Name is
+                required!</small>
+                
+              </div>
+           </div> 
+         </div>
+        <div class="form-group">
+          <input type="text" name="Email"class="form-control"  #umail="ngModel" [class.is-invalid]="umail.invalid && umail.touched" placeholder="Email" [(ngModel)]="registerUserData.Email" required>
+          <small class="text-danger" [class.d-none]="umail.valid || umail.untouched">Email is
+            required!</small>
+          
+        </div>
+        <select class="custom-select custom-select mb-3"  name="Role" [(ngModel)]="registerUserData.Role" required>
+          <option selected value="default" disabled>--Select Role--</option>
+          <option value="1">Admin</option>
+          <option value="3">Student</option>
+          <option value="2">Mentor</option>
+        </select>
+        <div class="form-group">
+          <input type="password" name="Password" class="form-control"  #upass="ngModel" [class.is-invalid]="upass.invalid && upass.touched" placeholder="Password" [(ngModel)]="registerUserData.Password" required>
+          <small class="text-danger" [class.d-none]="upass.valid || upass.untouched">Password is
+            required!</small>
+          
+        </div>
+        
+        <button [disabled]="registerform.form.invalid" (click)="registerUser()"  class="btn btn-primary float-right"> Register </button>
+        <h5>Already having an account? <a href="/login">Log In</a></h5>
+      </form> 
+    </div>
+  </div>
+</div><br><br><br><br><br><br>
+

@@ -1,0 +1,52 @@
+ <!-- Navigation -->
+ <nav class="navbar navbar-expand-sm navbar-dark  static-top pt-2" style="background-color: black">
+    <a class="navbar-brand" routerLink="">MENTOR-HUB</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/about_us" routerLinkActive="active">About Us</a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact Us</a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- <li class="nav-item">
+                <a class="nav-link" routerLink="/courses" routerLinkActive="active">Courses</a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <!-- <li class="nav-item">
+                <a class="nav-link" routerLink="/add-courses" routerLinkActive="active">Add Courses</a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <li class="nav-item ">
+            <input type="text" name="CName" class="form-control" placeholder="Search..." [(ngModel)]= "SearchCourseData">
+            </li>
+            <li class="nav-item">
+                <button type="submit" class="btn" (click)="Search(SearchCourseData)" ><i class="fa fa-search"  style="color:#DDDDDD;"></i></button>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-link" *ngIf="!_authService.loggedIn()"><a class="btn btn-success" routerLink="/login" routerLinkActive="active">log In </a></li>
+            <li class="nav-link" *ngIf="!_authService.loggedIn()"><a class="btn btn-danger" routerLink="/register" routerLinkActive="active">Sign up</a></li>
+            <li class="nav-link" *ngIf="_authService.loggedIn()"><a class="btn dropdown-toggle" data-toggle="dropdown" ><i class="fas fa-user fa-2x"></i></a>
+                <div class="dropdown-menu dropdown-menu-right" *ngIf="_authService.isAdmin()">
+                        <a class="dropdown-item" href="/admin-profile">Dashboard</a>
+                        <a class="dropdown-item" (click)="_authService.logout()" href="#">Logout</a>
+                </div>
+                <div class="dropdown-menu dropdown-menu-right" *ngIf="_authService.isMentor()" >
+                        <a class="dropdown-item" href="/mentor-profile">Dashboard</a>
+                        <a class="dropdown-item" href="/mentor-notification">Notifications</a>
+                        <a class="dropdown-item" (click)="_authService.logout()" href="#">Logout</a>
+                </div>
+                <div class="dropdown-menu dropdown-menu-right" *ngIf="_authService.isStudent()">
+                        <a class="dropdown-item" href="/student-profile">Dashboard</a>
+                        <a class="dropdown-item" href="/student-notification">Notifications</a>
+                        <a class="dropdown-item" (click)="_authService.logout()" href="#">Logout</a>
+                </div>
+            </li>
+
+        </ul>    
+</nav>
+<router-outlet></router-outlet>
+<!-- Footer -->
+<!-- <footer style="background-color: black" >
+        <div class="footer-copyright text-center py-3"><p> © 2018 Copyright : &nbsp;<a href="">Mentor-Hub.com</a></p>
+         </div>
+</footer> -->
+      <!-- Footer -->
